@@ -42,7 +42,7 @@ function Table(props) {
     };
 
     func();
-  }, []);
+  }, [props.meth]);
 
   if (loading) {
     return <p>Loading...</p>;
@@ -78,12 +78,12 @@ function Table(props) {
     ));
   };
   return (
-    <>
-      <table border={1}>
+    <table border={1}>
+      <tbody>
         {renderTableHeaders()}
         {renderTableRows()}
-      </table>
-    </>
+      </tbody>
+    </table>
   );
 }
 export default Table;
