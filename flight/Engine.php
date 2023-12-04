@@ -143,7 +143,7 @@ class Engine
         }
 
         // Default configuration settings
-        $this->set('flight.base_url');
+        $this->set('flight.base_url','https://whoscored-itu.netlify.app/');
         $this->set('flight.case_sensitive', false);
         $this->set('flight.handle_errors', true);
         $this->set('flight.log_errors', false);
