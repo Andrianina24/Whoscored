@@ -1,7 +1,0 @@
-{
-  "name": "whoscored",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react-vite"
-}
